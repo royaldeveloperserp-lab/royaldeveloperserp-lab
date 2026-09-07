@@ -33,18 +33,18 @@ Royal Ecosystem
 
 🤖 AI Agent Architecture
 
-The Royal AI OS vision includes specialized AI agents for different business functions:
+The Royal AI OS vision includes specialized AI agents for different business functions.
 
 Agent| Purpose
-👑 CEO AI| Executive intelligence & strategic decision support
-💰 Finance AI| Financial analysis & business intelligence
-📈 Sales AI| Sales workflows, CRM & pipeline intelligence
-📣 Marketing AI| Marketing automation & customer insights
-⚖️ Legal AI| Document & compliance assistance
+👑 CEO AI| Executive intelligence and strategic decision support
+💰 Finance AI| Financial analysis and business intelligence
+📈 Sales AI| Sales workflows, CRM and pipeline intelligence
+📣 Marketing AI| Marketing automation and customer insights
+⚖️ Legal AI| Document and compliance assistance
 💻 Developer AI| Software development assistance
-📊 Analytics AI| Data analysis & reporting
-🎨 Design AI| Creative & product design assistance
-🎧 Customer Support AI| Customer communication & support
+📊 Analytics AI| Data analysis and reporting
+🎨 Design AI| Creative and product design assistance
+🎧 Customer Support AI| Customer communication and support
 
 ---
 
@@ -52,9 +52,9 @@ Agent| Purpose
 
 👑 Royal AI OS
 
-AI-powered business operating system connecting applications, agents, automation, and intelligence.
+AI-powered business operating system connecting applications, AI agents, automation, and intelligence.
 
-Repository: ""Royal-AI-OS"" (https://github.com/royaldeveloperserp-lab/Royal-AI-OS)
+Repository: "Royal-AI-OS" (https://github.com/royaldeveloperserp-lab/Royal-AI-OS)
 
 ---
 
@@ -62,7 +62,7 @@ Repository: ""Royal-AI-OS"" (https://github.com/royaldeveloperserp-lab/Royal-AI-
 
 Business management platform designed for real-estate and construction operations.
 
-Core areas:
+Core Areas
 
 - Projects
 - CRM
@@ -75,7 +75,7 @@ Core areas:
 - Users & Roles
 - Company Management
 - Authentication
-- RBAC
+- Role-Based Access Control
 
 Technology: React • TypeScript • Vite • Tailwind CSS • Supabase • PostgreSQL
 
@@ -85,7 +85,7 @@ Technology: React • TypeScript • Vite • Tailwind CSS • Supabase • Post
 
 AI-powered fashion technology focused on virtual try-on and digital fashion experiences.
 
-Concept:
+Concept
 
 Upload Photo
      ↓
@@ -103,12 +103,12 @@ Brand direction: Royal Black • Gold • Ivory
 
 Desktop voice-assistant prototype designed as an intelligent interface for the Royal AI ecosystem.
 
-Technology:
+Technology
 
 - Python
 - Faster-Whisper
 - Ollama
-- Local LLM
+- Local LLM inference
 - pyttsx3
 - SoundDevice
 - Local API / bridge architecture
@@ -119,22 +119,22 @@ Technology:
 
 Frontend
 
-"React" (https://img.shields.io/badge/React-2026-61DAFB?style=flat-square&logo=react)
-"TypeScript" (https://img.shields.io/badge/TypeScript-2026-3178C6?style=flat-square&logo=typescript)
-"Vite" (https://img.shields.io/badge/Vite-2026-646CFF?style=flat-square&logo=vite)
-"Tailwind" (https://img.shields.io/badge/Tailwind_CSS-2026-06B6D4?style=flat-square&logo=tailwindcss)
+"React" (https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+"TypeScript" (https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+"Vite" (https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+"Tailwind CSS" (https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
 Backend & Database
 
-"Supabase" (https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase)
-"PostgreSQL" (https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql)
+"Supabase" (https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+"PostgreSQL" (https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
 AI & Development
 
-"Python" (https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)
-"GitHub" (https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)
+"Python" (https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+"GitHub" (https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 
-Also working with:
+Also Working With
 
 "AI Agents" • "LLMs" • "REST APIs" • "Authentication" • "RBAC" • "SQL" • "Automation" • "Business Intelligence"
 
@@ -142,30 +142,29 @@ Also working with:
 
 🏛️ Royal AI OS Vision
 
-                    👑 ROYAL AI OS
-             Intelligent Business Layer
-                         │
-       ┌─────────────────┼─────────────────┐
-       │                 │                 │
-       ▼                 ▼                 ▼
- Business Apps       AI Agents       Voice Interface
-       │                 │                 │
-       ▼                 ▼                 ▼
- ProBuild ERP       CEO AI          Royal Voice
- Royal Trove        Sales AI
- SA Trading         Finance AI
-                    Marketing AI
-                    Legal AI
-                    Developer AI
-                    Analytics AI
-                    Design AI
-                    Support AI
-                         │
-                         ▼
-               Data + Automation
-                         │
-                         ▼
-                  Business Action
+                         👑 ROYAL AI OS
+                  Intelligent Business Layer
+                              │
+             ┌────────────────┼────────────────┐
+             │                │                │
+             ▼                ▼                ▼
+       Business Apps      AI Agents      Voice Interface
+             │                │                │
+             │        ┌───────┼───────┐        │
+             │        │       │       │        │
+             ▼        ▼       ▼       ▼        ▼
+       ProBuild ERP  CEO AI  Sales AI Finance AI  Royal Voice
+       Royal Trove   Legal AI Marketing AI
+       SA Trading    Developer AI
+                     Analytics AI
+                     Design AI
+                     Support AI
+                              │
+                              ▼
+                     Data + Automation
+                              │
+                              ▼
+                       Business Action
 
 ---
 
@@ -266,6 +265,14 @@ Business Action
      ↓
 New Data
      ↺
+
+---
+
+🤝 Build. Automate. Intelligently.
+
+The Royal ecosystem is built around a simple idea:
+
+«Technology should make businesses smarter, faster, and more capable.»
 
 ---
 
