@@ -4,11 +4,7 @@
 
 ### AI • Business • ERP • Automation • Software
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=600&size=22&duration=2800&pause=900&color=9B59FF&center=true&vCenter=true&width=800&lines=Building+AI-Powered+Business+Systems;Royal+AI+OS+%7C+Royal+ProBuild+ERP;AI+Automation+%7C+Local+AI+%7C+Business+Intelligence;Turning+Ideas+Into+Real+Software" alt="Typing Animation" />
-
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=160&color=0:0B0714,50:24104F,100:0B0714&section=header&text=ROYAL%20xCODE&fontColor=FFD700&fontSize=48&fontAlignY=55&animation=fadeIn" />
+<img src="./assets/royal-core.svg" width="100%" alt="Royal xCode Technologies — Animated AI Ecosystem">
 
 </div>
 
@@ -45,8 +41,6 @@ Our work combines:
 
 AI Workspace • AI Chat • AI Agents • Business Intelligence • Knowledge Base
 
-<br>
-
 ⬇️
 
 ### 🏢 ROYAL PROBUILD ERP
@@ -55,8 +49,6 @@ AI Workspace • AI Chat • AI Agents • Business Intelligence • Knowledge B
 
 CRM • Projects • Properties • Sales • Installments • Accounting • Expenses • Reports
 
-<br>
-
 ⬇️
 
 ### 👔 ROYAL TROVE AI
@@ -64,8 +56,6 @@ CRM • Projects • Properties • Sales • Installments • Accounting • Ex
 **AI-powered fashion technology**
 
 Virtual Try-On • AI Fashion Concepts • Digital Experiences
-
-<br>
 
 ⬇️
 
@@ -94,7 +84,9 @@ Voice Commands • Local LLM • Speech Recognition • Text-to-Speech • Deskt
 - 🧠 Knowledge Base
 - ⚙️ System Settings
 
-### AI Agent Ecosystem
+---
+
+# 🤖 AI Agent Ecosystem
 
 | Agent | Responsibility |
 |---|---|
@@ -113,40 +105,31 @@ A modular ERP architecture designed around real-world business workflows.
 
 ### Current Business Areas
 
-**CRM**
-
+**CRM**  
 Customer records, relationships and business communication.
 
-**Projects**
-
+**Projects**  
 Project management, tracking and operational visibility.
 
-**Properties**
-
+**Properties**  
 Property management and development workflows.
 
-**Units**
-
+**Units**  
 Unit-level management and customer linking.
 
-**Sales**
-
+**Sales**  
 Sales workflow and customer transactions.
 
-**Installments**
-
+**Installments**  
 Installment planning and payment tracking.
 
-**Accounting**
-
+**Accounting**  
 Business financial records and accounting workflows.
 
-**Expenses**
-
+**Expenses**  
 Operational expense management.
 
-**Reports**
-
+**Reports**  
 Business reporting and management intelligence.
 
 ---
@@ -176,6 +159,8 @@ The goal:
 
 Royal xCode focuses on connecting AI with actual business operations.
 
+<div align="center">
+
 ```text
 USER
   │
@@ -191,12 +176,14 @@ ROYAL AI
   └── AUTOMATION
         │
         ▼
-   BUSINESS ACTION
+  BUSINESS ACTION
 ```
+
+</div>
 
 The objective is not simply to build AI demos.
 
-**The objective is to build useful systems.**
+> **The objective is to build useful systems.**
 
 ---
 
@@ -204,25 +191,21 @@ The objective is not simply to build AI demos.
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=react,typescript,vite,tailwind,python,supabase,git,github,vscode,windows" />
+### Frontend
 
-<br><br>
+**React • TypeScript • Vite • Tailwind CSS**
 
-**Frontend**
+### Backend & Database
 
-React • TypeScript • Vite • Tailwind CSS
+**Python • Supabase • PostgreSQL**
 
-**Backend & Database**
+### AI
 
-Python • Supabase • PostgreSQL
+**Local LLMs • Ollama • Whisper • AI Agents**
 
-**AI**
+### Development
 
-Local LLMs • Ollama • Whisper • AI Agents
-
-**Development**
-
-Git • GitHub • GitHub Desktop • VS Code
+**Git • GitHub • GitHub Desktop • VS Code**
 
 </div>
 
@@ -254,19 +237,24 @@ Where practical, local AI can provide speed, privacy and control.
 
 # 📈 Current Focus
 
+<div align="center">
+
 ```text
-ROYAL AI OS
-     │
-     ├── ERP Development
-     │
-     ├── AI Agents
-     │
-     ├── AI Automation
-     │
-     ├── Royal Voice
-     │
-     └── Business Intelligence
+             ROYAL AI OS
+                  │
+       ┌──────────┼──────────┐
+       │          │          │
+      ERP       AGENTS     VOICE
+       │          │          │
+       └──────────┼──────────┘
+                  │
+             AUTOMATION
+                  │
+                  ▼
+       BUSINESS INTELLIGENCE
 ```
+
+</div>
 
 ### Current Priority
 
@@ -279,18 +267,18 @@ ROYAL AI OS
 The long-term objective is to build a connected ecosystem where:
 
 ```text
-             ROYAL AI
-                │
-     ┌──────────┼──────────┐
-     │          │          │
-    ERP       VOICE      AGENTS
-     │          │          │
-     └──────────┼──────────┘
-                │
-          AUTOMATION
-                │
-                ▼
-        BUSINESS INTELLIGENCE
+                    ROYAL AI
+                       │
+          ┌────────────┼────────────┐
+          │            │            │
+         ERP         VOICE        AGENTS
+          │            │            │
+          └────────────┼────────────┘
+                       │
+                  AUTOMATION
+                       │
+                       ▼
+             BUSINESS INTELLIGENCE
 ```
 
 A single technology ecosystem connecting:
@@ -321,7 +309,7 @@ AI
 └── Intelligent Digital Experiences
 ```
 
-### The vision
+### The Vision
 
 > **Create technology that works with people, not against them.**
 
@@ -340,7 +328,7 @@ AI • ERP • Automation • Agents • Analytics
 <br>
 
 <a href="https://github.com/royaldeveloperserp-lab/Royal-AI-OS">
-<img src="https://img.shields.io/badge/ROYAL_AI_OS-Explore_Project-7B2CBF?style=for-the-badge&logo=github&logoColor=white" alt="Royal AI OS" />
+<strong>🚀 EXPLORE ROYAL AI OS →</strong>
 </a>
 
 </div>
@@ -349,18 +337,20 @@ AI • ERP • Automation • Agents • Analytics
 
 # 💡 Areas of Interest
 
-```text
-Artificial Intelligence
-AI Automation
-Business Software
-ERP Systems
-AI Agents
-Local AI
-Business Intelligence
-Voice Assistants
-Software Architecture
-Digital Transformation
-```
+<div align="center">
+
+**Artificial Intelligence**  
+**AI Automation**  
+**Business Software**  
+**ERP Systems**  
+**AI Agents**  
+**Local AI**  
+**Business Intelligence**  
+**Voice Assistants**  
+**Software Architecture**  
+**Digital Transformation**
+
+</div>
 
 ---
 
@@ -368,11 +358,11 @@ Digital Transformation
 
 <div align="center">
 
-### THINK BIG
+## THINK BIG
 
 ### BUILD PRACTICAL
 
-### AUTOMATE INTELLIGENTLY
+## AUTOMATE INTELLIGENTLY
 
 ### KEEP IMPROVING
 
@@ -388,14 +378,16 @@ Digital Transformation
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0B0714,50:24104F,100:0B0714&section=footer&animation=fadeIn" />
-
 ### 👑 Royal xCode Technologies
 
 **AI • Business • ERP • Automation • Software**
 
 <br>
 
-<img src="https://komarev.com/ghpvc/?username=royaldeveloperserp-lab&style=flat-square&color=7B2CBF" alt="Profile Views" />
+<img src="https://komarev.com/ghpvc/?username=royaldeveloperserp-lab&style=flat-square&color=7B2CBF" alt="Profile Views">
+
+<br><br>
+
+**ROYAL SYSTEM • LOCAL INTELLIGENCE • ONLINE**
 
 </div>

@@ -1,0 +1,409 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#24104f"/>
+      <stop offset="45%" stop-color="#10081f"/>
+      <stop offset="100%" stop-color="#050308"/>
+    </radialGradient>
+
+    <radialGradient id="core" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#fff7c7"/>
+      <stop offset="18%" stop-color="#ffd700"/>
+      <stop offset="42%" stop-color="#b77aff"/>
+      <stop offset="72%" stop-color="#6d28d9"/>
+      <stop offset="100%" stop-color="#24104f"/>
+    </radialGradient>
+
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff4a8"/>
+      <stop offset="45%" stop-color="#ffd700"/>
+      <stop offset="100%" stop-color="#b8860b"/>
+    </linearGradient>
+
+    <linearGradient id="purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d8b4fe"/>
+      <stop offset="50%" stop-color="#9b59ff"/>
+      <stop offset="100%" stop-color="#5b21b6"/>
+    </linearGradient>
+
+    <filter id="glowGold" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glowPurple" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+
+    <path id="orbit1" d="M600 310 m-245 0 a245 245 0 1 0 490 0 a245 245 0 1 0 -490 0"/>
+    <path id="orbit2" d="M600 310 m-190 0 a190 105 0 1 0 380 0 a190 105 0 1 0 -380 0"/>
+    <path id="orbit3" d="M600 310 m-110 0 a110 245 0 1 0 220 0 a110 245 0 1 0 -220 0"/>
+
+    <style>
+      .label {
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 3px;
+      }
+
+      .small {
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 2px;
+      }
+
+      .orbit {
+        fill: none;
+        stroke-linecap: round;
+      }
+
+      .node {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        letter-spacing: 2px;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="620" rx="28" fill="url(#bg)"/>
+
+  <!-- Ambient glow -->
+  <circle cx="600" cy="310" r="210" fill="#7c3aed" opacity="0.12" filter="url(#softGlow)">
+    <animate attributeName="opacity"
+             values="0.08;0.18;0.08"
+             dur="4s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Header -->
+  <text x="600" y="54"
+        text-anchor="middle"
+        fill="url(#gold)"
+        font-size="27"
+        font-weight="700"
+        class="label">
+    ROYAL xCODE TECHNOLOGIES
+  </text>
+
+  <text x="600" y="82"
+        text-anchor="middle"
+        fill="#d8c7ff"
+        font-size="12"
+        class="small">
+    AI • BUSINESS • ERP • AUTOMATION • SOFTWARE
+  </text>
+
+  <!-- Decorative stars -->
+  <g fill="#ffd700">
+    <circle cx="95" cy="145" r="2">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="180" cy="420" r="2">
+      <animate attributeName="opacity" values="1;0.2;1" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1020" cy="160" r="2">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1080" cy="430" r="2">
+      <animate attributeName="opacity" values="1;0.2;1" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="285" cy="105" r="1.5">
+      <animate attributeName="opacity" values="0.1;1;0.1" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="900" cy="105" r="1.5">
+      <animate attributeName="opacity" values="1;0.1;1" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Orbit rings -->
+  <ellipse cx="600" cy="310" rx="245" ry="245"
+           class="orbit"
+           stroke="url(#purple)"
+           stroke-width="1.5"
+           opacity="0.5">
+    <animateTransform attributeName="transform"
+                      type="rotate"
+                      from="0 600 310"
+                      to="360 600 310"
+                      dur="24s"
+                      repeatCount="indefinite"/>
+  </ellipse>
+
+  <ellipse cx="600" cy="310" rx="190" ry="105"
+           class="orbit"
+           stroke="url(#gold)"
+           stroke-width="1.5"
+           opacity="0.65">
+    <animateTransform attributeName="transform"
+                      type="rotate"
+                      from="0 600 310"
+                      to="-360 600 310"
+                      dur="15s"
+                      repeatCount="indefinite"/>
+  </ellipse>
+
+  <ellipse cx="600" cy="310" rx="110" ry="245"
+           class="orbit"
+           stroke="url(#purple)"
+           stroke-width="1"
+           opacity="0.5">
+    <animateTransform attributeName="transform"
+                      type="rotate"
+                      from="0 600 310"
+                      to="360 600 310"
+                      dur="19s"
+                      repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Animated orbital particles -->
+  <circle r="6" fill="#ffd700" filter="url(#glowGold)">
+    <animateMotion dur="7s" repeatCount="indefinite">
+      <mpath href="#orbit1"/>
+    </animateMotion>
+  </circle>
+
+  <circle r="5" fill="#a855f7" filter="url(#glowPurple)">
+    <animateMotion dur="5s" repeatCount="indefinite">
+      <mpath href="#orbit2"/>
+    </animateMotion>
+  </circle>
+
+  <circle r="4" fill="#ffffff">
+    <animateMotion dur="9s" repeatCount="indefinite">
+      <mpath href="#orbit3"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Connection network -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M600 310 L330 190" stroke="#9b59ff" stroke-width="1.5" opacity="0.55">
+      <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.8s" repeatCount="indefinite"/>
+    </path>
+
+    <path d="M600 310 L870 190" stroke="#ffd700" stroke-width="1.5" opacity="0.55">
+      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="3.1s" repeatCount="indefinite"/>
+    </path>
+
+    <path d="M600 310 L330 430" stroke="#ffd700" stroke-width="1.5" opacity="0.55">
+      <animate attributeName="opacity" values="0.2;0.8;0.2" dur="3.3s" repeatCount="indefinite"/>
+    </path>
+
+    <path d="M600 310 L870 430" stroke="#9b59ff" stroke-width="1.5" opacity="0.55">
+      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- Moving data pulses -->
+  <circle r="5" fill="#ffd700" filter="url(#glowGold)">
+    <animateMotion dur="2.5s" repeatCount="indefinite"
+                   path="M600 310 L330 190"/>
+  </circle>
+
+  <circle r="5" fill="#b77aff" filter="url(#glowPurple)">
+    <animateMotion dur="2.5s" begin="0.7s" repeatCount="indefinite"
+                   path="M600 310 L870 190"/>
+  </circle>
+
+  <circle r="5" fill="#ffd700" filter="url(#glowGold)">
+    <animateMotion dur="2.5s" begin="1.1s" repeatCount="indefinite"
+                   path="M600 310 L330 430"/>
+  </circle>
+
+  <circle r="5" fill="#b77aff" filter="url(#glowPurple)">
+    <animateMotion dur="2.5s" begin="1.6s" repeatCount="indefinite"
+                   path="M600 310 L870 430"/>
+  </circle>
+
+  <!-- Central core -->
+  <circle cx="600" cy="310" r="88"
+          fill="#7c3aed"
+          opacity="0.2"
+          filter="url(#softGlow)">
+    <animate attributeName="r" values="78;96;78" dur="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.12;0.25;0.12" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="600" cy="310" r="68"
+          fill="url(#core)"
+          stroke="#ffd700"
+          stroke-width="2"
+          filter="url(#glowPurple)">
+    <animate attributeName="r" values="64;71;64" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="600" cy="310" r="52"
+          fill="#0b0714"
+          opacity="0.88"/>
+
+  <!-- Crown -->
+  <path d="M570 294
+           L560 273
+           L579 284
+           L600 260
+           L621 284
+           L640 273
+           L630 294
+           L624 305
+           L576 305 Z"
+        fill="url(#gold)"
+        stroke="#fff1a8"
+        stroke-width="1.5">
+    <animateTransform attributeName="transform"
+                      type="scale"
+                      values="1;1.05;1"
+                      dur="2.4s"
+                      repeatCount="indefinite"
+                      additive="sum"/>
+  </path>
+
+  <text x="600" y="329"
+        text-anchor="middle"
+        fill="#ffffff"
+        font-size="13"
+        font-weight="700"
+        class="label">
+    ROYAL AI
+  </text>
+
+  <text x="600" y="350"
+        text-anchor="middle"
+        fill="#d8c7ff"
+        font-size="9"
+        class="small">
+    LOCAL INTELLIGENCE
+  </text>
+
+  <!-- Nodes -->
+  <g>
+    <!-- ERP -->
+    <circle cx="330" cy="190" r="28"
+            fill="#0d071a"
+            stroke="#9b59ff"
+            stroke-width="2">
+      <animate attributeName="stroke-width" values="1.5;3;1.5" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+
+    <text x="330" y="195"
+          text-anchor="middle"
+          fill="#ffffff"
+          font-size="13"
+          class="node">
+      ERP
+    </text>
+
+    <text x="330" y="238"
+          text-anchor="middle"
+          fill="#bda7e8"
+          font-size="11"
+          class="small">
+      PROBUILD
+    </text>
+
+    <!-- VOICE -->
+    <circle cx="870" cy="190" r="28"
+            fill="#0d071a"
+            stroke="#ffd700"
+            stroke-width="2">
+      <animate attributeName="stroke-width" values="1.5;3;1.5" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+
+    <text x="870" y="195"
+          text-anchor="middle"
+          fill="#ffffff"
+          font-size="12"
+          class="node">
+      VOICE
+    </text>
+
+    <text x="870" y="238"
+          text-anchor="middle"
+          fill="#d8c7a0"
+          font-size="11"
+          class="small">
+      LOCAL AI
+    </text>
+
+    <!-- AGENTS -->
+    <circle cx="330" cy="430" r="28"
+            fill="#0d071a"
+            stroke="#ffd700"
+            stroke-width="2">
+      <animate attributeName="stroke-width" values="1.5;3;1.5" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+
+    <text x="330" y="435"
+          text-anchor="middle"
+          fill="#ffffff"
+          font-size="12"
+          class="node">
+      AGENTS
+    </text>
+
+    <text x="330" y="478"
+          text-anchor="middle"
+          fill="#d8c7a0"
+          font-size="11"
+          class="small">
+      INTELLIGENCE
+    </text>
+
+    <!-- AUTOMATION -->
+    <circle cx="870" cy="430" r="28"
+            fill="#0d071a"
+            stroke="#9b59ff"
+            stroke-width="2">
+      <animate attributeName="stroke-width" values="1.5;3;1.5" dur="2.9s" repeatCount="indefinite"/>
+    </circle>
+
+    <text x="870" y="435"
+          text-anchor="middle"
+          fill="#ffffff"
+          font-size="10"
+          class="node">
+      AUTOMATION
+    </text>
+
+    <text x="870" y="478"
+          text-anchor="middle"
+          fill="#bda7e8"
+          font-size="11"
+          class="small">
+      BUSINESS ACTION
+    </text>
+  </g>
+
+  <!-- Bottom status -->
+  <g>
+    <circle cx="535" cy="555" r="5" fill="#44ff88">
+      <animate attributeName="opacity"
+               values="1;0.25;1"
+               dur="1.5s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <text x="550" y="560"
+          fill="#cfc4e8"
+          font-size="12"
+          class="small">
+      ROYAL SYSTEM • LOCAL INTELLIGENCE • ONLINE
+    </text>
+  </g>
+
+  <!-- Border -->
+  <rect x="8" y="8" width="1184" height="604"
+        rx="24"
+        fill="none"
+        stroke="url(#purple)"
+        stroke-width="1"
+        opacity="0.55"/>
+</svg>
