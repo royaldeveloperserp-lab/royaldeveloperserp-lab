@@ -1,18 +1,24 @@
-👑 Royal xCode Technologies
+<div align="center">
 
-AI • Business • ERP • Automation • Software
+# 👑 Royal xCode Technologies
 
-Building practical technology systems that connect business operations, artificial intelligence, automation, and data.
+### AI • Business • ERP • Automation • Software
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=900&color=D4AF37&center=true&vCenter=true&width=700&lines=Building+Intelligent+Business+Systems;AI+Agents+%7C+ERP+%7C+Automation;Royal+AI+OS+%7C+Royal+Voice+%7C+Royal+Trove+AI" alt="Typing animation" />
+
+<br/>
+
+**Building practical technology systems that connect business operations, artificial intelligence, automation, and data.**
+
+</div>
 
 ---
 
-🚀 What I'm Building
+## 👑 Royal AI OS
 
-👑 Royal AI OS
+**AI-Powered Business Operating System**
 
-AI-Powered Business Operating System
-
-Royal AI OS is the central platform for the Royal technology ecosystem.
+Royal AI OS is the central platform of the Royal technology ecosystem.
 
 It is designed to connect:
 
@@ -26,288 +32,251 @@ It is designed to connect:
 
 The long-term goal is to create an AI-native business operating layer that can understand business operations, assist decision-making, and automate workflows.
 
-Main project: "Royal AI OS" (https://github.com/royaldeveloperserp-lab/Royal-AI-OS)
+🔗 **Main Project:** [Royal AI OS](https://github.com/royaldeveloperserp-lab/Royal-AI-OS)
 
 ---
 
-🏢 Royal Ecosystem
+## 🏢 Royal Technology Ecosystem
 
-🏗️ Royal ProBuild ERP
+### 🏗️ Royal ProBuild ERP
 
 A business management platform designed for real-estate and construction operations.
 
-Key areas include:
+**Core areas**
 
-- Projects
-- CRM
-- Properties
-- Units
-- Sales
-- Installments
-- Accounting
-- Reports
-- Users & Roles
-- Company Management
-- Authentication
-- Role-Based Access Control
+`Projects` `CRM` `Properties` `Units` `Sales` `Installments`
 
-Technology: React • TypeScript • Vite • Tailwind CSS • Supabase • PostgreSQL
+`Accounting` `Reports` `Users & Roles` `Company Management`
+
+**Technology**
+
+`React` `TypeScript` `Vite` `Tailwind CSS` `Supabase` `PostgreSQL`
 
 ---
 
-👗 Royal Trove AI
+### 👗 Royal Trove AI
 
 An AI-powered fashion technology concept focused on virtual try-on and digital fashion experiences.
 
-The planned experience connects:
+**Photo → Fashion Item → AI Try-On → Visual Product Experience**
 
-Photo → Fashion Item → AI Try-On → Visual Product Experience
+Brand direction:
 
-Brand direction: Royal Black • Gold • Ivory
+**Royal Black • Gold • Ivory**
 
 ---
 
-🎙️ Royal Voice
+### 🎙️ Royal Voice
 
 A desktop voice-assistant prototype designed as an intelligent interface for the Royal AI ecosystem.
 
-Current technology includes:
+**Technology**
 
-- Python
-- Faster-Whisper
-- Ollama
-- Local LLM inference
-- pyttsx3
-- SoundDevice
-- Local API / bridge architecture
+`Python` `Faster-Whisper` `Ollama` `Local LLMs`
+
+`pyttsx3` `SoundDevice` `Local API` `Bridge Architecture`
 
 The goal is to make interaction with the Royal ecosystem more natural through voice.
 
 ---
 
-🤖 AI Agent Vision
+## 🤖 AI Agent Ecosystem
 
 Royal AI OS is designed around specialized AI agents for different business functions.
 
-- 👑 CEO AI — Executive intelligence and strategic decision support
-- 💰 Finance AI — Financial analysis and business intelligence
-- 📈 Sales AI — Sales workflows, CRM and pipeline intelligence
-- 📣 Marketing AI — Marketing automation and customer insights
-- ⚖️ Legal AI — Document and compliance assistance
-- 💻 Developer AI — Software development assistance
-- 📊 Analytics AI — Data analysis and reporting
-- 🎨 Design AI — Creative and product design assistance
-- 🎧 Customer Support AI — Customer communication and support
+| Agent | Purpose |
+|---|---|
+| 👑 CEO AI | Executive intelligence and strategic decision support |
+| 💰 Finance AI | Financial analysis and business intelligence |
+| 📈 Sales AI | Sales workflows, CRM and pipeline intelligence |
+| 📣 Marketing AI | Marketing automation and customer insights |
+| ⚖️ Legal AI | Document and compliance assistance |
+| 💻 Developer AI | Software development assistance |
+| 📊 Analytics AI | Data analysis and reporting |
+| 🎨 Design AI | Creative and product design assistance |
+| 🎧 Customer Support AI | Customer communication and support |
 
 The objective is to move beyond a simple chatbot and build an intelligent business operating layer.
 
 ---
 
-🧠 Technology
+## 🧠 Technology Stack
 
-Frontend
+### Frontend
 
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
-- Lucide
+![React](https://skillicons.dev/icons?i=react)
+![TypeScript](https://skillicons.dev/icons?i=ts)
+![Vite](https://skillicons.dev/icons?i=vite)
+![Tailwind](https://skillicons.dev/icons?i=tailwind)
 
-Backend & Data
+### Backend & Data
 
-- Supabase
-- PostgreSQL
-- SQL
-- REST APIs
-- Authentication
-- Role-Based Access Control
+![Supabase](https://skillicons.dev/icons?i=supabase)
+![PostgreSQL](https://skillicons.dev/icons?i=postgres)
+![Python](https://skillicons.dev/icons?i=python)
 
-AI & Automation
+### AI & Development
 
-- Python
-- Ollama
-- Local LLMs
-- Faster-Whisper
-- AI Agents
-- Voice Interfaces
-- Workflow Automation
+![GitHub](https://skillicons.dev/icons?i=github)
+![VS Code](https://skillicons.dev/icons?i=vscode)
+![Docker](https://skillicons.dev/icons?i=docker)
 
-Development
-
-- GitHub
-- VS Code
-- AI-assisted development
-- Automated testing
-- Security and RLS review
+`Ollama` `Local LLMs` `Faster-Whisper` `AI Agents` `Voice Interfaces`
 
 ---
 
-🔐 Engineering Principles
+## 🔐 Engineering Principles
 
-Security First
+**Security First**  
+Authentication, authorization, role-based access control, and database-level security are important parts of system architecture.
 
-Authentication, authorization, role-based access control, and database-level security are treated as important parts of system architecture.
-
-AI-Native
-
+**AI-Native**  
 AI should be integrated into useful business workflows rather than existing only as a conversational interface.
 
-Modular
-
+**Modular**  
 Applications should be modular, maintainable, and extensible.
 
-Business-First
-
+**Business-First**  
 Technology should solve real business problems.
 
-Automation
-
+**Automation**  
 Repetitive operational workflows should increasingly become intelligent and automated.
 
-Human + AI
-
+**Human + AI**  
 AI should provide better information, better tools, and better automation while keeping people involved in important decisions.
 
 ---
 
-🛠️ Development Approach
+## 🛠️ Development Approach
 
-My development approach follows a continuous cycle:
-
+```text
 Business Problem
-
-↓
-
+       ↓
 Requirements
-
-↓
-
+       ↓
 System Architecture
-
-↓
-
+       ↓
 AI-Assisted Development
-
-↓
-
+       ↓
 Implementation
-
-↓
-
+       ↓
 Security Review
-
-↓
-
+       ↓
 Testing
-
-↓
-
+       ↓
 Build Verification
-
-↓
-
+       ↓
 Continuous Improvement
+```
 
 ---
 
-📊 Current Focus
-
-My current development focus includes:
+## 📊 Current Focus
 
 - 👑 Royal AI OS
 - 🏗️ Royal ProBuild ERP
 - 🤖 AI Agent integration
 - 🎙️ Royal Voice
 - 🔐 Secure application architecture
-- 🗄️ Supabase and PostgreSQL
+- 🗄️ Supabase & PostgreSQL
 - 📊 Business intelligence
 - ⚙️ Workflow automation
 - 👗 Royal Trove AI
-- 🧠 Local AI and LLM experimentation
+- 🧠 Local AI & LLM experimentation
 
 ---
 
-🌐 Royal xCode Technologies
+## 🌐 Royal xCode Technologies
 
 Royal xCode Technologies represents the technology direction behind the Royal software ecosystem.
 
 The broader vision combines:
 
-Business Knowledge + Software Engineering + Artificial Intelligence + Automation
+**Business Knowledge + Software Engineering + Artificial Intelligence + Automation**
 
 to create practical technology for real-world businesses.
 
 ---
 
-🚀 Long-Term Vision
+## 🚀 Long-Term Vision
+
+```text
+                    👑 ROYAL AI OS
+                          │
+        ┌─────────────────┼─────────────────┐
+        │                 │                 │
+     Business            AI              Agents
+   Applications       Intelligence      & Copilots
+        │                 │                 │
+        └─────────────────┼─────────────────┘
+                          │
+                     Automation
+                          │
+                       Decisions
+                          │
+                         Action
+```
 
 The long-term objective is to build a connected AI business ecosystem where applications, data, AI agents, and automation work together.
 
-Business
+---
 
-Business applications generate operational data.
+## ⭐ Featured Project
 
-Intelligence
+<div align="center">
 
-AI systems understand and analyze that data.
+### 👑 Royal AI OS
 
-Agents
+**AI-powered business operating system**
 
-Specialized AI agents assist different business functions.
+[![Royal AI OS](https://img.shields.io/badge/ROYAL_AI_OS-AI%20BUSINESS%20PLATFORM-D4AF37?style=for-the-badge&logo=github&logoColor=white)](https://github.com/royaldeveloperserp-lab/Royal-AI-OS)
 
-Automation
-
-AI-assisted workflows help execute repetitive operational tasks.
-
-Decisions
-
-People receive better information and better tools for important decisions.
-
-Action
-
-The organization becomes more connected, measurable, and intelligent.
+</div>
 
 ---
 
-⭐ Featured Project
+## 🤝 Areas of Interest
 
-"👑 Royal AI OS" (https://github.com/royaldeveloperserp-lab/Royal-AI-OS)
+`Artificial Intelligence`
 
-AI-powered business operating system
+`AI Agents`
 
-Explore the project repository to follow the development of the Royal AI ecosystem.
+`Business Automation`
 
----
+`ERP Systems`
 
-🤝 Areas of Interest
+`Enterprise Software`
 
-I'm focused on building technology around:
+`Real Estate Technology`
 
-- Artificial Intelligence
-- AI Agents
-- Business Automation
-- ERP Systems
-- Enterprise Software
-- Real Estate Technology
-- Fashion Technology
-- Voice Interfaces
-- Business Intelligence
-- SaaS Products
+`Fashion Technology`
+
+`Voice Interfaces`
+
+`Business Intelligence`
+
+`SaaS Products`
 
 ---
 
-👑 Royal Philosophy
+## 👑 Royal Philosophy
 
-«Build systems that make businesses smarter.»
+> **Build systems that make businesses smarter.**
 
 Technology becomes valuable when ideas are transformed into systems that people and businesses can actually use.
 
 ---
 
-<div align="center">👑 Royal xCode Technologies
+<div align="center">
 
-AI • Business • Automation • Software
+### 👑 Royal xCode Technologies
 
-Building the next generation of intelligent business systems.
+**AI • Business • Automation • Software**
+
+*Building the next generation of intelligent business systems.*
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111111,50:2b174f,100:D4AF37&height=120&section=footer" width="100%" />
 
 </div>
