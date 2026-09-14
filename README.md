@@ -34,7 +34,7 @@ Our work combines:
 # 🚀 Royal Technology Ecosystem
 
 <div align="center">
-
+  
 ### 🧠 ROYAL AI OS
 
 **The central AI operating environment**
@@ -205,7 +205,7 @@ The objective is not simply to build AI demos.
 
 ### Development
 
-**Git • GitHub • GitHub Desktop • VS Code**
+Git • GitHub • VS Code
 
 </div>
 
