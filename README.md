@@ -33,10 +33,8 @@ Our work combines:
 
 # 🚀 Royal Technology Ecosystem
 
-<div align="center">
-  
+<div align="center">  
 ### 🧠 ROYAL AI OS
-
 **The central AI operating environment**
 
 AI Workspace • AI Chat • AI Agents • Business Intelligence • Knowledge Base
